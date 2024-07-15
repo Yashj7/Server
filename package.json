@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server zip",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashj7/Server.git"
+  },
+  "author": "Yash Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashj7/Server/issues"
+  },
+  "homepage": "https://github.com/Yashj7/Server#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mssql": "^11.0.1"
+  }
+}
