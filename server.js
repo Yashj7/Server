@@ -26,16 +26,6 @@ app.get("/", (req, res) => {
   res.send("Hello, world!");
 });
 
-// const config = {
-//   user: "sa",
-//   password: "yash7000",
-//   server: "LAPTOP-OV3KG247\\SQLEXPRESS",
-//   database: "home_automation",
-//   options: {
-//     trustServerCertificate: true,
-//   },
-// };
-
 const config = {
   user: "yash",
   password: "#Raj7000",
