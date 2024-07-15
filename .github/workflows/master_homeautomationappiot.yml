@@ -24,7 +24,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install mssql express http
-          npm run build --if-present
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
